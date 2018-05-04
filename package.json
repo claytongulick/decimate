@@ -1,0 +1,25 @@
+{
+  "name": "decimate",
+  "version": "1.0.0",
+  "description": "Simplify (decimate) a geojson object by reducing its geometry",
+  "main": "decimate.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytongulick/decimate.git"
+  },
+  "keywords": [
+    "geojson",
+    "simplify",
+    "decimate",
+    "geometry"
+  ],
+  "author": "Clayton Gulick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claytongulick/decimate/issues"
+  },
+  "homepage": "https://github.com/claytongulick/decimate#readme"
+}

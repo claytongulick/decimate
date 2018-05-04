@@ -190,7 +190,7 @@ function Decimate() {
     this.lineDistance = lineDistance; //for tests
     this.decimateRadialDistance = decimateRadialDistance;
     this.decimateDouglasPeuker = decimateDouglasPeucker;
-    this.decimate = simplify;
+    this.decimate = decimate;
 
 }
 

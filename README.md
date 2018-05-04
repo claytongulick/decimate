@@ -1,6 +1,10 @@
 # decimate
 Simplify (decimate) the geometry of a geojson object
 
+## Installation
+
+    npm install decimate --save
+
 ## Usage
 
     let Decimate = require('decimate');

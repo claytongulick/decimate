@@ -1,6 +1,6 @@
 {
   "name": "decimate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplify (decimate) a geojson object by reducing its geometry",
   "main": "decimate.js",
   "scripts": {

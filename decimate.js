@@ -118,13 +118,13 @@ function Decimate() {
     function decimate(geojson, distance) {
 
         function decimateFeature() {
-            geojson.geometry = decimate(geojson.geometry);
+            geojson.geometry = decimate(geojson.geometry, distance);
         }
 
         function decimateFeatureCollection() {
             geojson.features.forEach(
                 function(feature) {
-                    feature.geometry = decimate(feature.geometry);
+                    feature.geometry = decimate(feature.geometry, distance);
                 }
             )
         }
